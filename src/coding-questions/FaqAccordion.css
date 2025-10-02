@@ -1,0 +1,26 @@
+.mainContainer {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  color: #333;
+}
+
+.faq-answer {
+  padding: 0 1rem 1rem;
+  color: #555;
+  font-size: 1rem;
+}
