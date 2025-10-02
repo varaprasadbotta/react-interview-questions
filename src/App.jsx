@@ -1,12 +1,10 @@
 import "./App.css";
-import ChipsInput from "./coding-questions/ChipsInput";
-import  EvenOrOddChecker  from "./coding-questions/EvenOrOddChecker";
-import FaqAccordion from "./coding-questions/FaqAccordion";
+import InputFocus from "./coding-questions/InputFocus";
 
 function App() {
   return (
     <>
-      <FaqAccordion/>
+      <InputFocus/>
     </>
   );
 }

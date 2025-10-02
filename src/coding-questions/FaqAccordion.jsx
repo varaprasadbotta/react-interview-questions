@@ -29,7 +29,7 @@ const FaqAccordion = () => {
       <div className="faq-container">
         <h2 className="faq-title">Frequently Asked Questions</h2>
         {faqs.map((faq, index) => (
-          <div className="faq-item">
+          <div key={index} className="faq-item">
             <button
               onClick={() => handleButtonClick(index)}
               className="faq-question"
