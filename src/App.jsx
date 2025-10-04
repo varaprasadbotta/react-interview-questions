@@ -1,11 +1,10 @@
 import "./App.css";
-import FaqAccordion from "./coding-questions/FaqAccordion";
-import InputFocus from "./coding-questions/InputFocus";
+import TogglePassword from "./coding-questions/TogglePassword";
 
 function App() {
   return (
     <>
-    <InputFocus/>
+      <TogglePassword />
     </>
   );
 }
