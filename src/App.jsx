@@ -1,10 +1,10 @@
 import "./App.css";
-import ReadMore from "./coding-questions/ReadMore";
+import UserProfile from "./coding-questions/UserProfile";
 
 function App() {
   return (
     <>
-      <ReadMore />
+      <UserProfile />
     </>
   );
 }
