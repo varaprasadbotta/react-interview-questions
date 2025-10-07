@@ -1,10 +1,10 @@
 import "./App.css";
-import TogglePassword from "./coding-questions/TogglePassword";
+import ReadMore from "./coding-questions/ReadMore";
 
 function App() {
   return (
     <>
-      <TogglePassword />
+      <ReadMore />
     </>
   );
 }
