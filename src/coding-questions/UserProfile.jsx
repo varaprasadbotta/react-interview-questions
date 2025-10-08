@@ -19,6 +19,7 @@ class UserProfile extends Component {
       isBioVisible: !prevState.isBioVisible,
     }));
   };
+  // render
   render() {
     return (
       <div>
